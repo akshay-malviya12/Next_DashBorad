@@ -32,7 +32,7 @@ const options = {
 
 const PieChart: React.FC = () => {
   return (
-    <div style={{ height: '250px' }}>
+    <div style={{ height: '200px' }}>
       <Pie data={data} options={options} />
     </div>
   );

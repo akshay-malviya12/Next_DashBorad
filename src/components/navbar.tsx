@@ -18,11 +18,11 @@ const TopNavbar: React.FC = () => {
             style={{ maxHeight: '100px', overflowY: 'auto', paddingRight: '1rem' }}
             navbarScroll
           >
-            <Link href="/" passHref legacyBehavior><Nav.Link>Home</Nav.Link></Link>
-            <Link href="/about" passHref legacyBehavior><Nav.Link>About Us</Nav.Link></Link>
-            <Link href="/services" passHref legacyBehavior><Nav.Link>Services</Nav.Link></Link>
-            <Link href="/blog" passHref legacyBehavior><Nav.Link>Blog</Nav.Link></Link>
-            <Link href="/contact" passHref legacyBehavior><Nav.Link>Contact Us</Nav.Link></Link>
+            <Link href="/" passHref legacyBehavior>Home</Link>
+            <Link href="/about" passHref legacyBehavior>About Us</Link>
+            <Link href="/services" passHref legacyBehavior>Services</Link>
+            <Link href="/blog" passHref legacyBehavior>Blog</Link>
+            <Link href="/contact" passHref legacyBehavior>Contact Us</Link>
 
             {/* <NavDropdown title="More" id="navbarScrollingDropdown">
               <Link href="/action" passHref legacyBehavior><NavDropdown.Item>Action</NavDropdown.Item></Link>
