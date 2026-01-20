@@ -46,7 +46,7 @@ const Dashboard: React.FC = () => {
           <Card className="h-100 w-100 mx-auto">
             <Card.Body className="py-2 px-3 responsive-text">
               <Card.Title className="fs-5">Pie Chart Example</Card.Title>
-              <div style={{ height: '35vh' }}>
+              <div style={{ height: '30vh' }}>
                 <PieChart />
               </div>
             </Card.Body>
